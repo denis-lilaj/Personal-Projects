@@ -1,0 +1,116 @@
+main
+{
+    background-color: #b58863;
+    width: 1200px;
+    height: 600px;
+}
+
+main h1
+{
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main p{
+    font-size: large;
+    font-weight: 600;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+main a:hover{
+   color: white;
+}
+
+#AccountP{
+    margin-left: 100px;
+}
+
+#LogIn
+{
+  background-color: burlywood;
+  width: 600px;
+  height: 400px;
+}
+
+#LogIn tr td{
+   height: 50px;
+}
+
+#LogIn input[type=text]{
+    width: 400px;
+    height: 20px;
+}
+
+
+#LogIn input[type=button]{
+   margin-left: 180px;
+   width: 200px;
+   height: 30px;
+}
+
+fieldset{
+    width: 600px;
+    margin-left: 100px;
+    float: left;
+}
+
+
+#LogInContainer{
+    width: 1200px;
+    height: 500px;
+}
+
+#LogInContainer p{
+    padding-left: 8px;
+    font-size: large;
+}
+
+
+#LogInContainer img{
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 100px;
+    float: left;
+}
+
+
+footer{
+    padding-top: 40px;
+     height: 150px;
+     background-image: url("Social-Media-Ideas.png");
+     background-position: center;
+     background-repeat: cover;
+     color: burlywood;
+     padding-left: 10px;
+     box-sizing: border-box;
+    
+    }
+
+    footer h1{
+        margin-top: 0px;
+    }    
+    
+    
+    footer ul li{
+        list-style: none;
+        float: left;
+        margin-right: 7px;
+    }
+
+    footer ul li a{
+        color: burlywood;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    footer ul li a:hover{
+        color: white;
+    }
+

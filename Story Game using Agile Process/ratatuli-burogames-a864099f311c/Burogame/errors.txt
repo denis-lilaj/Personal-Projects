@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 803: end of line expected.
+    ath "We can’t trust him this is dangerous.":
+                                               ^
+
+Ren'Py Version: Ren'Py 7.4.10.2178
+Mon Nov 22 17:20:50 2021

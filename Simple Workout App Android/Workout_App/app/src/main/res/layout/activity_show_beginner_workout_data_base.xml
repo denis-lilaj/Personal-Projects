@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Show_Beginner_Workout_DataBase"
+    android:background="#008080">
+
+    <TextView
+        android:id="@+id/NameOfWorkout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ImageOfWorkout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/NameOfWorkout"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_below="@+id/ImageOfWorkout"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/InformationOfWorkout"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/Description"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/RepetitionOfWorkoutString"
+        android:text="Repetitions: "
+        android:layout_below="@+id/InformationOfWorkout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/RepetitionOfWorkout"
+        android:layout_toRightOf="@+id/RepetitionOfWorkoutString"
+        android:layout_below="@+id/InformationOfWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/EditWorkout"
+        android:text="Edit Workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/RepetitionOfWorkout"/>
+
+
+    <Button
+        android:id="@+id/DeleteWorkout"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/EditWorkout"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Workout" />
+
+
+
+</RelativeLayout>

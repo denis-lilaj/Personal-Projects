@@ -1,0 +1,16 @@
+package com.example.workout_app;
+
+import java.util.ArrayList;
+
+public class Advanced_Workout_Collector {
+
+    static ArrayList<Workout> arrayList_Advanced_Workout=new ArrayList<>();
+
+    Advanced_Workout_Collector(){
+        arrayList_Advanced_Workout.add(new Workout("Squat Jumps",R.drawable.squatjumps,"Stand with feet shoulder width and knees slightly bent and then bend your knees and descend to a full squat position. Engage through the quads, glutes, and hamstrings and propel the body up and off the floor, extending through the legs. With the legs fully extended, the feet will be a few inches (or more) off the floor. Descend and control your landing by going through your foot (toes, ball, arches, heel) and descend into the squat again for another explosive jump.",30));
+        arrayList_Advanced_Workout.add(new Workout("Plank rows",R.drawable.plankrows,"Come into plank position with a dumbbell in each hand. Make sure your back is straight and your hands are stacked under your shoulders. Keep your plank still and row one arm up on an exhale, keeping your elbow close to your rib cage. After that repeat the row movement, alternating arms without losing the stability of your plank.",30));
+        arrayList_Advanced_Workout.add(new Workout("Mountain climbers",R.drawable.mountainclimbers,"Get into a plank position, making sure to distribute your weight evenly between your hands and your toes. Then, check your form—your hands should be about shoulder-width apart, back flat, abs engaged, and head in alignment. Pull your right knee into your chest as far as you can. Switch legs, pulling one knee out and bringing the other knee in. Lastly, repeat",30));
+        arrayList_Advanced_Workout.add(new Workout("Kettlebell swings",R.drawable.kettlebellswings,"Stand with your feet shoulder-width apart while holding a kettlebell with both hands (palms facing toward you) and arms straight down. Then, Inhale and push your hips back (hinge your hips) and slightly bend your knees to bring the kettlebell between your legs. Be sure to keep your back straight and engage your core. Exhale, contract your glutes, and push your hips forward to lift your body into a standing position. Allow your arms to swing the kettlebell as far as it will naturally go. Shoulder height or parallel to the ground is your goal, although you do not want to use arm strength to raise the kettlebell. It may take a few swings to find your rhythm and maximize the lift. Inhale and lower the kettlebell between your legs by pushing your hips back and slightly bending your knees. This is 1 rep.",30));
+        arrayList_Advanced_Workout.add(new Workout("Decline push-ups",R.drawable.declinepushups,"Bend your elbows to lower your chest until it almost touches the floor, stopping once your elbows are at your ribcage. Maintain an aligned position and use a smooth, controlled motion. As you lower to the ground, look up slightly to allow full range of motion and avoid banging your nose or forehead on the ground. This position may make you want to arch your back but resist this temptation as doing so is not helpful and could set you up for an injury. Push up until your elbows are straight, but not locked, to return to the starting position.",30));
+    }
+}

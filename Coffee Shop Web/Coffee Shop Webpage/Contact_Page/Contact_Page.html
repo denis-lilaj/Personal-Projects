@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS_For_All_Pages.css">
+    <link rel="stylesheet" href="Contact_Page.css">
+</head>
+
+    
+    <body>
+        <header>
+            <img src="../Logo.png" width=300px height="250px" alt="">
+        </header>
+    
+      
+            <nav>
+                 <ul>
+                    <div id="LeftSideNav">
+                      <li><a href="../Main_Page/Coffee_Shop_Main_Page.html">Home</a></li>
+                      <li hidden><a href="../Coffee_Page/Coffee_Page.php">Coffee</a></li>
+                      <li><a href="../Merchandise_Page/Merchandise_Page.html">Merchandise</a></li>
+                      <li><a href="../Equipment_Page/Equipment_Page.html">Equipment</a></li>
+                      <li><a href="../Gift_Page/Gift_page.html">Gifts</a></li>
+                      <li><a href="../My_Account_Page/My_Account_Page.php">My Account</a></li>
+                    </div>
+    
+                    <div id="RightSideNav">
+                      <li><a href="../Contact_Page/Contact_Page.html">Contact</a></li>
+                      <li><a href="../Locations_Page/Locations_Page.html">Locations</a></li>
+                      <li><a href="../About_Us_Page/About_Us_Page.html">About Us</a></li>
+                    </div>
+                </ul>
+            </nav>
+       
+       <main>
+           <h1>Contact</h1>
+           
+           <h4>Coffee Corner Headquarters <br>
+               668 Capital Circle NE Tallahassee, FL 32301</h4>
+            <p>(850) 422-0300</p>
+            <p>For questions, please drop us a line below, or visit our <span class="Italic"><a href="../Locations_Page/Locations_Page.html">Locations</a></span> ,or click on our <span class="Italic"><a href="../Chat_Room/Chat_Room.html">Chat Room</a></span> in case you want to talk to our staff. Also if you are interested you can have a chat with some of our <span class="Italic"><a href="../Customers/Customers.html">Customers</a></span></p>
+
+          <form action="/action_page.php" method="get">
+            <table id="BigTable">
+                <tr>
+                  <td>
+                    <fieldset>
+                    <legend>User Info</legend>
+                    <table id="FirstSmallTable">
+                        <tr>
+                          <td colspan="2">
+                             <h2>Name</h2>
+                          </td>
+                        </tr>
+               
+                  
+                        <tr> 
+                          <td>
+                             <input type="text" id="Name" class="TextIn">
+                          </td>
+
+                          <td>
+                             <input type="text" id="Surname" class="TextIn">
+                          </td>
+                        </tr> 
+
+
+                        <tr>
+                          <td>
+                              <p class="Text">First</p>
+                          </td>
+
+                           <td>
+                              <p class="Text">Last</p>
+                           </td>
+                        </tr>
+
+             
+                        <tr>
+                          <td>
+                              <h2>Email</h2>
+                          </td>
+
+                          <td>
+                              <h2>Phone</h2>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                              <input type="text" id="Email" class="TextIn">
+                          </td>
+
+                           <td>
+                              <input type="text" id="Phone" class="TextIn">
+                           </td>
+                        </tr>
+                    </table>
+                    </fieldset>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <fieldset>
+                    <legend>Feedback</legend>
+                    <table id="SecondSmallTable">   
+                        <tr>
+                          <td colspan="2">
+                              <h2>What can we help with?</h2>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td colspan="2">
+                              <textarea name="Comment" rows="8" cols="60"></textarea>
+                          </td>
+                        </tr>
+                    </table>
+                    </fieldset> 
+                  </td> 
+                </tr>
+            </table>  
+            <input type="submit" value="Submit Form" id="Submit">
+          </form>
+       </main>
+ </body>
+
+       <footer>
+           <h2>Never miss out</h2>
+           <p>Join our mailing list and stay up-to-date on new products, promotions and all things coffee.</p>
+           <p><input type="email" id="email" placeholder="E-Mail Address"> <input type="button" value="Join"></p>
+       </footer>
+   
+    
+</html>

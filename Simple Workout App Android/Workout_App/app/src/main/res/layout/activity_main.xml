@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#008080">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/OpeningText"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/first_page" />
+
+
+    <TextView
+        android:id="@+id/OpeningText"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_above="@+id/SignUp"
+        android:text="Welcome! Sign Up if you do not have an account, otherwise log in!"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+
+   <Button
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       android:id="@+id/SignUp"
+       android:text="Sign Up"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SignUp"
+        android:id="@+id/LogIn"
+        android:text="Log In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/CountYourSteps"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LogIn"
+        android:text="Count Your Steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

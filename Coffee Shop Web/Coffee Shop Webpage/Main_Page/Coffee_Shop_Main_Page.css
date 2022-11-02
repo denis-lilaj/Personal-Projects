@@ -1,0 +1,90 @@
+#MainContainer{
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 1200px;
+    height: 850px;
+    background-color: #b58863;
+}
+
+
+#LeftMain{
+    margin-left: 5px;
+    padding-left: 20px;
+    width: 700px;
+    height: 700px;
+    float: left;
+    background-color: #f0d9b5;
+    border:black dashed 2px;
+    border-radius: 20px;
+}
+
+#LeftMain  p{
+    position: relative;
+    animation-name: moveThetext;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes moveThetext {
+    from {left: -20px;}
+    to {left: 0px; }
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+  #RightMain {
+    padding-left: 40px;
+    width: 450px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+
+  #RightMain img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    animation-name: moveThecup;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+    
+  }
+
+
+  #RightMain iframe {
+    position: relative;
+    bottom: 60px;
+  }
+
+  #RightMain p{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+      font-weight: 700;
+      padding-left: 20px;
+      color:#2d252c;
+      animation-name: TextShow;
+      animation-duration: 2s;  
+      animation-iteration-count: infinite;
+      position: relative;
+      bottom: 40px;
+  }
+
+
+  @keyframes moveThecup {
+    from {bottom: 0px;}
+    to {bottom: 25px; }
+
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+
+  @keyframes TextShow {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+
+

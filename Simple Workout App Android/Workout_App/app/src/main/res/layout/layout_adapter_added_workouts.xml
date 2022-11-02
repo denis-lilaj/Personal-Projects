@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp">
+
+    <TextView
+        android:id="@+id/NameOfWorkout"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ImageOfWorkout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/NameOfWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/InformationOfWorkout"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ImageOfWorkout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/RepetitionOfWorkout"
+        android:layout_below="@+id/InformationOfWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:textSize="14sp"/>
+
+
+</RelativeLayout>

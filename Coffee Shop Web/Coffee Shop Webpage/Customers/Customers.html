@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS_For_All_Pages.css">
+    <link rel="stylesheet" href="Customers.css">
+   
+</head>
+
+    
+
+        <header>
+            <img src="../Logo.png" width=300px height="250px" alt="">
+        </header>
+    
+        <body>
+                    <nav>
+                        <ul>
+                            <div id="LeftSideNav">
+                            <li><a href="../Main_Page/Coffee_Shop_Main_Page.html">Home</a></li>
+                            <li hidden><a href="../Coffee_Page/Coffee_Page.php">Coffee</a></li>
+                            <li><a href="../Merchandise_Page/Merchandise_Page.html">Merchandise</a></li>
+                            <li><a href="../Equipment_Page/Equipment_Page.html">Equipment</a></li>
+                            <li><a href="../Gift_Page/Gift_page.html">Gifts</a></li>
+                            <li><a href="../My_Account_Page/My_Account_Page.php">My Account</a></li>
+                            </div>
+            
+                            <div id="RightSideNav">
+                            <li><a href="../Contact_Page/Contact_Page.html">Contact</a></li>
+                            <li><a href="../Locations_Page/Locations_Page.html">Locations</a></li>
+                            <li><a href="../About_Us_Page/About_Us_Page.html">About Us</a></li>
+                            </div>
+                        </ul>
+                    </nav>
+
+
+   
+     <main>
+         <h2>Different customers information</h2>
+         <div id="Information">
+
+         </div>
+     </main>
+  </body>
+
+  <footer>
+      <p>Thank you for your being a nice customer!</p>
+  </footer>
+
+  <script>
+    class Customers{
+        name;
+        surname;
+        e_mail;
+        tel_number;
+
+        constructor(name,surname,e_mail,tel_number)
+        {
+            this.name=name;
+            this.surname=surname;
+            this.e_mail=e_mail;
+            this.tel_number=tel_number;
+        }
+    }
+
+
+    CustomersArray=[]
+
+    let data='[{"name":"Denis","surname":"Lilaj","e_mail":"denislilaj10@gmail.com","tel_number":"697091431"},{"name":"Arbi","surname":"Malushi","e_mail":"arbimalushi10@gmail.com","tel_number":"697096431"},{"name":"Megan","surname":"Morphe","e_mail":"meganmorphe@gmail.com","tel_number":"6970932131"},{"name":"Rael","surname":"Lilaj","e_mail":"raellilaj10@gmail.com","tel_number":"694057132"}]'
+
+    let parsedData=JSON.parse(data);
+
+    for(let object of parsedData)
+    {
+        let person=new Customers(object.name,object.surname,object.e_mail,object.tel_number);
+        CustomersArray.push(person);
+    }
+
+
+    for(let customer of CustomersArray)
+    {
+        let customerDiv=document.createElement("div");
+        customerDiv.style.backgroundColor="brown";
+        customerDiv.style.border="2px solid black";
+        customerDiv.style.width="180px";
+        customerDiv.style.marginLeft="80px";
+        customerDiv.style.float="left";
+        customerDiv.classList="customerDiv";
+
+        let CustomerName=document.createElement("p");
+        let CustomerSurname=document.createElement("p");
+        let CustomerEmail=document.createElement("p");
+        let CustomerTelNumber=document.createElement("p");
+
+        CustomerName.innerText=customer.name;
+        CustomerSurname.innerText=customer.surname;
+        CustomerEmail.innerText=customer.e_mail;
+        CustomerTelNumber.innerText=customer.tel_number;
+
+        customerDiv.appendChild(CustomerName);
+        customerDiv.appendChild(CustomerSurname);
+        customerDiv.appendChild(CustomerEmail);
+        customerDiv.appendChild(CustomerTelNumber);
+
+        document.getElementById("Information").appendChild(customerDiv);
+    }
+
+</script>
+ </html>
+

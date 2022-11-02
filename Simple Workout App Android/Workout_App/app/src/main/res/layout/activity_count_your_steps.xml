@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountYourSteps"
+    android:background="#008080">
+
+    <ImageView
+        android:layout_below="@id/Title"
+        android:layout_marginTop="20dp"
+        android:id="@+id/PedometerImage"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pedomter" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:text="Step Counter"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/MoveToMeasure"
+        android:text="Move To Meausre: "
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PedometerImage"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/UpdatedSteps"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PedometerImage"
+        android:layout_toRightOf="@+id/MoveToMeasure" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+main{
+    height: 600px;
+    padding-top: 40px;
+    background-color: #b58863;
+    padding-left: 15px;
+    
+}
+
+main h2{
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#Map{
+    width: 410px;
+    height: 600px;
+    float: left;
+    margin-right: 10px;
+}
+
+#Contain{
+    width: 700px;
+    height: 600px;
+    float: left;
+}
+
+main p{
+    font-size: 21px;
+    animation-name: glow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;  
+    margin-top: 0px;  
+}
+
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 50px #ffd904;
+    }
+    to {
+      text-shadow: 0 0 50px #583109;
+    }
+  }
+
+
+  #Images{
+     width: 495px;
+     height: 270px;
+     background-color: #f0d9b5;
+     padding-left: 9px;
+     padding-top: 14px;
+     float: right;
+  }
+
+  #Images img{
+      width: 240px;
+      height: 125px;
+  }
+
+  footer{
+    height: 150px;
+     background-image: url("Social-Media-Ideas.png");
+     background-position: center;
+     background-repeat: cover;
+     color: burlywood;
+     padding-left: 10px;
+    
+    }
+
+    footer h1{
+        margin-top: 0px;
+    }    
+    
+    
+    footer ul li{
+        list-style: none;
+        float: left;
+        margin-right: 7px;
+    }
+
+    footer ul li a{
+        color: burlywood;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    footer ul li a:hover{
+        color: white;
+    }
+
+    

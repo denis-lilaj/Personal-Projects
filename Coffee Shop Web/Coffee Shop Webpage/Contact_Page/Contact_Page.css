@@ -1,0 +1,110 @@
+
+main h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(44, 40, 40);
+    margin: 0px;
+}
+
+main{
+    padding-top: 50px;
+    background-color: #b58863;
+    margin-top: 0px;
+    height: 900px;
+}
+
+main h4 , p{
+    padding-left: 20px;
+}
+
+
+#BigTable {
+    width: 600px;
+    height: 600px;
+    margin-left: 220px;
+    margin-bottom: 20px;
+    border: black solid 3px;
+    background-color: #f0d9b5;
+}
+
+
+#FirstSmallTable 
+{
+    width: 700px;
+    height: 100px;
+    padding-left: 80px;
+  
+}
+
+#SecondSmallTable 
+{
+    width: 700px;
+    height: 100px;
+    padding-left: 80px;
+ 
+}
+
+
+.TextIn{
+  line-height: 30px;
+  width: 200px;
+}
+
+.Text{
+    font-size: 20px;
+}
+
+#Submit{
+    background-color: #f0d9b5;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    margin-left: 450px;
+}
+
+
+
+footer{
+    padding-top: 50px;
+    color:rgb(255, 255, 255);
+    width: 1200px;
+    height: 200px;
+    background-image: url("coffee_panorama.jpg");
+    background-position: center;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer h2{
+    margin-top: 0px;
+}
+
+
+footer p input[type=email]
+{
+    width: 200px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: white;
+}
+
+
+.Italic{
+    font-style: italic;
+}
+
+
+
+  
+ 

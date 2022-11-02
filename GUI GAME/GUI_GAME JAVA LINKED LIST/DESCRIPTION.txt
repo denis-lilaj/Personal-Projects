@@ -1,0 +1,1 @@
+This game shows the last man alive in a circle after you select the number and the position that you want to start eleminating persons starting from yourself.

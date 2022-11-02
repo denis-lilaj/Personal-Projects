@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS_For_All_Pages.css">
+    <link rel="stylesheet" href="Gift_Page.css">
+
+    <script>
+        let input="";
+       
+        function DisplayMessage(input)
+        {
+           if (input===document.getElementById("FirstButton").id)
+           {
+               alert("You will pay 20$");
+           }
+
+           else if (input===document.getElementById("SecondButton").id)
+           {
+               alert("You will pay 10$");
+           }
+
+
+           else if (input===document.getElementById("ThirdButton").id)
+           {
+               alert("You will pay 30$");
+           }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="../Logo.png" width=300px height="250px" alt="">
+    </header>
+
+  
+        <nav>
+             <ul>
+                <div id="LeftSideNav">
+                  <li><a href="../Main_Page/Coffee_Shop_Main_Page.html">Home</a></li>
+                  <li hidden><a href="../Coffee_Page/Coffee_Page.php">Coffee</a></li>
+                  <li><a href="../Merchandise_Page/Merchandise_Page.html">Merchandise</a></li>
+                  <li><a href="../Equipment_Page/Equipment_Page.html">Equipment</a></li>
+                  <li><a href="../Gift_Page/Gift_page.html">Gifts</a></li>
+                  <li><a href="../My_Account_Page/My_Account_Page.php">My Account</a></li>
+                </div>
+
+                <div id="RightSideNav">
+                  <li><a href="../Contact_Page/Contact_Page.html">Contact</a></li>
+                  <li><a href="../Locations_Page/Locations_Page.html">Locations</a></li>
+                  <li><a href="../About_Us_Page/About_Us_Page.html">About Us</a></li>
+                </div>
+            </ul>
+        </nav>
+
+    
+     <main>
+         <div id="h3P">
+            <h3>Shopping for someone else but not sure what to give them? Give the gift of choice with a gift card.
+                Gift cards are delivered by email and contain checkout redemption instructions. Our gift cards have no additional processing fees.</h3>
+        </div>
+       
+          <div id="GiftContainer">
+            <div class="GiftCard">
+              <img src="GiftCard1.png"> 
+              <p>This gift card offers you to take get each of our prouduct wiht a 10% disocunt (Physical)</p>
+              <input type="button" value="Pay Now" id="FirstButton" onclick="DisplayMessage('FirstButton')">
+              <p id="Price1">Price: 20$</p>
+            </div>
+              
+            <div class="GiftCard">
+              <img src="GiftCard2.jpg " alt="">
+              <p>This gift card offers you a free product from us if you reach a level of 20 prouducts bought in our coffee shop (Electronic)</p>
+              <input type="button" value="Pay Now" id="SecondButton" onclick="DisplayMessage('SecondButton')">
+              <p id="Price2">Price: 10$</p>
+             </div>
+
+            <div class="GiftCard">
+                <img src="GiftCard3.png" alt="">
+                <p>This gift card offers a 20% dicount for one of our equipments (Electronic)</p>
+                <input type="button" value="Pay Now" id="ThirdButton" onclick="DisplayMessage('ThirdButton')">
+                <p id="Price3">Price: 30$</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+<footer>
+        
+    <h1>Follow us on our social medias:</h1>
+        <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+        </ul>
+    
+</footer>
+
+</html>

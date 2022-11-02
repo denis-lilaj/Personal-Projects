@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Beginner_Workout"
+    android:background="#008080">
+
+    <EditText
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:id="@+id/AddWorkoutName"
+        android:layout_marginTop="20dp"
+        android:hint="Add Workout Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ImageButtonSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddWorkoutName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Select Image" />
+
+
+    <ImageView
+        android:id="@+id/ImagePreview"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/AddWorkoutName"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="15dp" />
+
+
+
+    <EditText
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ImageButtonSelector"
+        android:id="@+id/AddWorkoutInformation"
+        android:hint="Add Workout Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/AddWorkoutInformation"
+        android:id="@+id/AddRepetitions"
+        android:hint="Add Workout Repetitions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/AddWorkoutButton"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Workout"
+        android:layout_below="@+id/AddRepetitions"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"/>
+
+</RelativeLayout>

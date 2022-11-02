@@ -1,0 +1,22 @@
+#BigContainer{
+    width: 1200px;
+    height: 1200px;
+    background-color: #b58863;
+    padding-top: 26px;
+}
+
+.StylingCharts{
+    float: left;
+    padding-left: 3px;
+
+}
+
+
+#LogOutContainer{
+    width: 1200px;
+    height: 50px;
+}
+
+#LogOutContainer input[type="button"]{
+    margin-left: 20px;
+}

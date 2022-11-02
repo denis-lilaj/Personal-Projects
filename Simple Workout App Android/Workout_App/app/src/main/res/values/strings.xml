@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Workout_App</string>
+    <string-array name="TypesOfWorkouts">
+        <item>Beginner Workout</item>
+        <item>Advanced Workout</item>
+    </string-array>
+    <string name="title_activity_edit_workout_database">Edit_Workout_Database</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

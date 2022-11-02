@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=WindowQuitter
+comment1.params=e
+comment1.target=void\ windowsClosing(java.awt.event.WindowEvent)
+numComments=2
